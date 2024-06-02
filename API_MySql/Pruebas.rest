@@ -1,4 +1,4 @@
-############# http://localhost:5000/alumnos/createNote Content-Type: application/json
+############# http://localhost:3000/notes/createNote Content-Type: application/json
 {
 "id_alumno_pk":"1",
 "num_control":"3225",
