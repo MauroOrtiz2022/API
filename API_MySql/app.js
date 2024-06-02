@@ -1,9 +1,9 @@
-import express from "express";
-import dotenv from "dotenv";
-import { notFound } from "./src/middlewares/notFound.js";
-import { handleError } from "./src/middlewares/handleError.js";
-import notesRoute from "./src/resources/notes/notes.routes.js";
-import cors from "cors";
+let express = require("express");
+let dotenv = require( "dotenv");
+/*let { notFound } =require( "./src/middlewares/notFound.js");*/
+/*let { handleError } =require( "./src/middlewares/handleError.js");*/
+let notesRoute =require( "./recursos/alumnos/alumnos_routes.js");
+let cors =require( "cors");
 dotenv.config();
 
 const app = express();

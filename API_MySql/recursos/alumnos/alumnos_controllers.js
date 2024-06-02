@@ -79,3 +79,9 @@ export const deleteNote = tryCatchWrapper(async function (req, res, next) {
   
     return res.status(200).json({ message: "alumno has been deleted" });
   });
+
+  module.exports={createNote,
+    deleteNote,
+    getAllNotes,
+    getSingleNote,
+    updateNote,};
